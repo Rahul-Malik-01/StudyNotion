@@ -43,7 +43,7 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
     
     API_SECRET = cmtUeew-KDugUF_l**********A
 
-    MONGODB_URL = "mongodb+srv://rahul***********:************7W3Q@cluster0.rfwohlw.mongodb.net/studyNotionDatabase"  // database url create at MongoDB atlas
+    MONGODB_URL = "mongodb+srv://rahul***********:************7W3Q@cluster0.rfwohlw.mongodb.net/studyNotionDatabase"    // database url create at MongoDB atlas
     
     PORT = 4000
     
