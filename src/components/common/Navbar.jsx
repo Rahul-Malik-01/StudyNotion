@@ -6,9 +6,6 @@ import { useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import ProfileDropDown from '../core/Auth/ProfileDropDown'
-// import { apiConnector } from '../../services/apiconnector'
-// import { categories } from '../../services/apis'
-// import { useState, useEffect } from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md"
 
 const subLinks = [
@@ -29,26 +26,6 @@ const Navbar = () => {
     const { user } = useSelector((state) => state.profile);
     const { totalItems } = useSelector((state) => state.cart)
     const location = useLocation();
-
-    // const [ssubLinks, setSsubLinks]  = useState([]);
-
-    // const fetchSublinks = async() => {
-    //     try{
-    //         const result = await apiConnector("GET", categories.CATEGORIES_API);
-    //         console.log("Printing Sublinks result:" , result);
-    //         setSsubLinks(result.data.data);
-    //     }
-    //     catch(error) {
-    //         console.log("Could not fetch the category list");
-    //     }
-    // }
-
-
-    // useEffect( () => {
-    //     fetchSublinks();
-    // },[] )
-
-
 
     const matchRoute = (route) => {
         return matchPath({ path: route }, location.pathname);

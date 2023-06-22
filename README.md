@@ -1,6 +1,6 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion React Project with ExpressJs (Backend) & MongoDB (DataBase)
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+This is StudyNotion React project with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
 ## Usage
 
@@ -8,19 +8,50 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 
 1. Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
+    git clone https://github.com/Rahul-Malik-01/StudyNotion.git
     ```
 
 1. Install the required packages.
     ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
+    npm install //in root folder and server folder
     ```
 
 1. Start the development server.
     ```sh
-    npm start
+    npm run dev
     ```
+
+1. Add .env file in server with Following configs
+    
+    MAIL_HOST = smtp.gmail.com
+    
+    MAIL_USER = m********@gmail.com
+    
+    MAIL_PASS = *********stcbeh   // create with two-step verification in your maail
+
+    JWT_SECRET = "studynotion"
+    
+    FOLDER_NAME = "StudyNotion"
+
+    RAZORPAY_KEY = rzp_test_xOjq9T********   // razorpay api key
+    
+    RAZORPAY_SECRET = 6J8QOHrMZpeYx***********
+
+    CLOUD_NAME = dm*******y
+    
+    API_KEY = 496395********4
+    
+    API_SECRET = cmtUeew-KDugUF_l**********A
+
+    MONGODB_URL = "mongodb+srv://rahul***********:************7W3Q@cluster0.rfwohlw.mongodb.net/studyNotionDatabase"    // database url create at MongoDB atlas
+    
+    PORT = 4000
+    
+    
+1. Add .env file in Root / React app Folder with Following config
+
+    REACT_APP_BASE_URL = "http://localhost:4000/api/v1"  // localhost url to connect server with react-app
+    
 1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
 1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
