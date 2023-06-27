@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Error = () => {
   return (
-    <div className='h-[100vh] pb-20 flex text-3xl items-center justify-center text-white'>
-      Error - 404 Not Found
+    <div className='flex justify-center items-center text-3xl text-white'>
+      Error - 404 Not found
     </div>
   )
 }
 
-export default Error;
+export default Error

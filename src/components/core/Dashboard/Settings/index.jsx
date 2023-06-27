@@ -5,7 +5,7 @@ import UpdatePassword from "./UpdatePassword"
 
 export default function Settings() {
   return (
-    <div className="w-[75%] mx-auto">
+    <div className="w-[85%] mx-auto">
       <h1 className="mb-14 text-3xl font-medium text-richblack-5">
         Edit Profile
       </h1>

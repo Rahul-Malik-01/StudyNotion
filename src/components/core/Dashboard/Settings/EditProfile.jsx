@@ -112,7 +112,7 @@ export default function EditProfile() {
                 type="text"
                 name="gender"
                 id="gender"
-                className="form-style"
+                className="form-style py-4"
                 {...register("gender", { required: true })}
                 defaultValue={user?.additionalDetails?.gender}
               >
